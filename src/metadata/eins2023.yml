@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/eins2023
+
+idspace: EINS2023
+base_url: /obo/eins2023
+
+products:
+- eins2023.owl: https://raw.githubusercontent.com/samdus/EINS2023-EquipeBleuOntologie/main/eins2023.owl
+- eins2023.obo: https://raw.githubusercontent.com/samdus/EINS2023-EquipeBleuOntologie/main/eins2023.obo
+
+term_browser: ontobee
+example_terms:
+- EINS2023_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/samdus/EINS2023-EquipeBleuOntologie/v
+
+- prefix: /tracker/
+  replacement: https://github.com/samdus/EINS2023-EquipeBleuOntologie/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/EINS2023?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/samdus/EINS2023-EquipeBleuOntologie/main/
+
