@@ -1,0 +1,4 @@
+OGMS:0000018 # Laboratory finding
+
+OGMS:0000014 # clinical finding
+OGMS:0000123 # clinical data item

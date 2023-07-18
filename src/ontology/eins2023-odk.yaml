@@ -2,7 +2,23 @@ id: eins2023
 title: Dyslipidemia early diagnostic application ontology
 github_org: samdus
 repo: EINS2023-EquipeBleuOntologie
+release_artefacts:
+  - full
+  - non-classified
+primary_release: non-classified
+export_formats:
+  - owl
 import_group:
   products:
-    - id: ro
-    - id: bfo
+    - id: olhsi # OpenLHS external imports ontology
+      mirror_from: "https://raw.githubusercontent.com/OpenLHS/OpenLHS-Imports/main/OpenLHS-Imports-full.owl"
+    - id: hp # Human Phenotype Ontology
+      module_type: custom
+    - id: noyo # NOYO is an ontology including all core classes and properties used in others ontologies from GRIIS Learning Health System platform.
+      # module_type: custom
+      mirror_from: "https://raw.githubusercontent.com/OpenLHS/NOYO/main/NOYO-full.owl"
+    - id: omrse # The Ontology of Medically Related Social Entities
+      # module_type: custom
+    - id: ogms # Ontology for General Medical Science
+      # module_type: custom
+robot_java_args: "-Xmx8G"

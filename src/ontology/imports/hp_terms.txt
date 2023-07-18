@@ -1,0 +1,106 @@
+HP:0003119 # Abnormal circulating lipid concentration (Dyslipidemia)
+HP:0040217 # Elevated hemoglobin A1c
+HP:0032263 # Increased blood pressure 
+HP:0032318 # Family history of heart disease
+HP:0100639 # Erectile dysfunction
+HP:0012740 # Papilloma
+HP:0031418 # Increased body mass index
+
+HP:0032180 # Abnormal circulating metabolite concentration
+HP:0001939 # Abnormality of metabolism/homeostasis
+HP:0011902 # Abnormal hemoglobin
+HP:0001877 # Abnormal erythrocyte morphology
+HP:0001871 # Abnormality of blood and blood-forming tissues
+HP:0030972 # Abnormal systemic blood pressure
+HP:0011025 # Abnormal cardiovascular system physiology
+HP:0001626 # Abnormality of the cardiovascular system
+HP:0040307 # Male sexual dysfunction
+HP:0012874 # Abnormal male reproductive system physiology
+HP:0000080 # Abnormality of reproductive system physiology
+HP:0000078 # Abnormality of the genital system
+HP:0000119 # Abnormality of the genitourinary system
+HP:0008069 # Neoplasm of the skin
+HP:0011793 # Neoplasm by anatomical site
+HP:0002664 # Neoplasm
+HP:0000951 # Abnormality of the skin
+HP:0001574 # Abnormality of the integument
+HP:0045081 # Abnormality of body mass index
+HP:0004323 # Abnormality of body weight
+HP:0001507 # Growth abnormality
+HP:0000118 # Phenotypic abnormality
+HP:0032316 # Family history
+HP:0032443 # Past medical history
+HP:0000001 # All
+
+BFO:0000051 # has part
+BFO:0000066 # occurs in
+
+RO:0002314 # inheres in part of
+RO:0002573 # has modifier
+RO:0000052 # inheres in
+
+PATO:0000460 # abnormal
+PATO:0000069 # deviation (from_normal)
+PATO:0000068 # qualitative
+PATO:0000125 # mass
+PATO:0001018 # physical quality
+PATO:0000051 # morphology
+PATO:0001025 # pressure
+PATO:0001509 # functionality
+PATO:0001241 # physical object quality
+PATO:0001863 # chronic
+PATO:0001309 # duration
+PATO:0002062 # physical quality of a process
+PATO:0001236 # process quality
+PATO:0000001 # quality
+
+GO:0006629 # lipid metabolic process
+GO:0071704 # organic substance metabolic process
+GO:0044238 # primary metabolic process
+GO:0008152 # metabolic process
+GO:0043084 # penile erection
+GO:0048609 # multicellular organismal reproductive process
+GO:0022414 # reproductive process
+GO:0040007 # growth
+GO:0008150 # biological_process
+
+UBERON:0002199 # integument
+UBERON:0011216 # organ system subdivision
+UBERON:0002097 # skin of body
+UBERON:0000062 # organ
+UBERON:0000079 # male reproductive system
+UBERON:0000990 # reproductive system
+UBERON:0002390 # hematopoietic system
+UBERON:0004122 # genitourinary system
+UBERON:0004535 # cardiovascular system
+UBERON:0000467 # anatomical system
+UBERON:0000468 # multicellular organism
+UBERON:0001981 # blood vessel
+UBERON:0000055 # vessel
+UBERON:0004111 # anatomical conduit
+UBERON:0010000 # multicellular anatomical structure
+UBERON:0000061 # anatomical structure
+UBERON:0000178 # blood
+UBERON:0000179 # haemolymphatic fluid
+UBERON:0001969 # blood plasma
+UBERON:0000463 # organism substance
+UBERON:0000465 # material anatomical entity
+UBERON:0001062 # anatomical entity
+
+CHEBI:35143 # hemoglobin
+CHEBI:5386 # globin
+CHEBI:35136 # iron protein
+CHEBI:35134 # metalloprotein
+CHEBI:33837 # conjugated protein
+CHEBI:36080 # protein
+CHEBI:33695 # information biomacromolecule
+CHEBI:33694 # biomacromolecule
+CHEBI:33839 # macromolecule
+CHEBI:36357 # polyatomic entity
+CHEBI:23367 # molecular entity
+CHEBI:24431 # chemical entity
+
+
+# Peut-être inclure ces classes ? :
+ # UBERON:0002049
+ # UBERON:0006596

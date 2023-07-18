@@ -1,0 +1,7 @@
+http://purl.obolibrary.org/obo/NOYO_0000050 # birth statement
+http://purl.obolibrary.org/obo/NOYO_0000072 # human biological sex information content entity
+
+http://purl.obolibrary.org/obo/NOYO_0000073 # biological sex or gender identity information content entity
+
+http://purl.obolibrary.org/obo/NOYO_0000009 # temporal characterization
+http://purl.obolibrary.org/obo/NOYO_0000010 # process temporal characterization

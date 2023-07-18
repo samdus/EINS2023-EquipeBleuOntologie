@@ -1,0 +1,51 @@
+Prefix(:=<http://purl.obolibrary.org/obo/eins2023/imports/ogms_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/eins2023/imports/ogms_import.owl>
+<http://purl.obolibrary.org/obo/eins2023/releases/2023-07-14/imports/ogms_import.owl>
+Annotation(owl:versionInfo "2023-07-14")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000123>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000117>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000014> (clinical finding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000014> "A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OGMS_0000014> "Albert Goldfain")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000014> "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000014> "creation date: 2010-07-19T10:18:02Z")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000014> "clinical finding")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000014> <http://purl.obolibrary.org/obo/OGMS_0000123>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000018> (laboratory finding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000018> "A representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OGMS_0000018> "Albert Goldfain")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000018> "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000018> "creation date: 2009-06-23T10:21:58Z")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000018> "laboratory finding")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000018> <http://purl.obolibrary.org/obo/OGMS_0000014>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000123> (clinical data item)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000123> "A data item that is about a patient and is the specified output of a health care process assay or diagnostic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000123> "creation date: 2018-11-27")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000123> "clinical data item"@en)
+
+
+)

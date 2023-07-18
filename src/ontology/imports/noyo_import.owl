@@ -1,0 +1,53 @@
+Prefix(:=<http://purl.obolibrary.org/obo/eins2023/imports/noyo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/eins2023/imports/noyo_import.owl>
+<http://purl.obolibrary.org/obo/eins2023/releases/2023-07-14/imports/noyo_import.owl>
+Annotation(owl:versionInfo "2023-07-14")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/NOYO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOYO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOYO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOYO_0000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOYO_0000073>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/NOYO_0000009> (temporal characterization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NOYO_0000009> "An information content entity that is about a one-dimension temporal region."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOYO_0000009> "temporal characterization"@en)
+
+# Class: <http://purl.obolibrary.org/obo/NOYO_0000010> (process temporal characterization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NOYO_0000010> "A temporal specification that is about the occupation of a temporal interval by some processes."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOYO_0000010> "process temporal characterization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NOYO_0000010> <http://purl.obolibrary.org/obo/NOYO_0000009>)
+
+# Class: <http://purl.obolibrary.org/obo/NOYO_0000050> (birth statement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NOYO_0000050> "A statement about the information surrounding the birth of a human."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOYO_0000050> "birth statement"@en)
+
+# Class: <http://purl.obolibrary.org/obo/NOYO_0000072> (human biological sex information content entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NOYO_0000072> "An information content entity that denotes the biological sex of a human."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOYO_0000072> "human biological sex information content entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/NOYO_0000072> <http://purl.obolibrary.org/obo/NOYO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/NOYO_0000073> (biological sex or gender identity information content entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NOYO_0000073> "An information content entity that is intended to denote a biological sex or a gender identity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOYO_0000073> "biological sex or gender identity information content entity"@en)
+
+
+)

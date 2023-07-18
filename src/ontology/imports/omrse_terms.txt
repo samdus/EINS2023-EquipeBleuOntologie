@@ -1,0 +1,12 @@
+OMRSE:00000213 # racial identity information content entity
+OMRSE:00000205 # ethnic identity information content entity
+OMRSE:00000039 # smoker role 
+OMRSE:00000186 # heavy smoker role
+OMRSE:00000187 # light smoker role
+OMRSE:00000223 # disclosure of residence
+
+OMRSE:00000050 # Homo sapiens role 
+OMRSE:00000049 # organism role
+OMRSE:00000048 # material entity role
+
+IAO:0021003 # social act

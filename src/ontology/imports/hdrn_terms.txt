@@ -1,0 +1,23 @@
+NOYO:0000050 # birth statement
+NOYO:0000072 # human biological sex information content entity
+IAO:0000646  # postal code
+NCBITaxon:9606 # Homo sapiens
+IAO:0020000 # identifier (proper name)
+
+NOYO:0000073 # biological sex or gender identity information content entity
+
+NOYO:0000009 # temporal characterization
+NOYO:0000010 # process temporal characterization
+
+IAO:0000030 # information content entity
+IAO:0020000 # identifier
+
+BFO:0000001 # entity
+BFO:0000002 # continuant
+BFO:0000031 # generically dependent continuant
+BFO:0000040 # material entity
+BFO:0000004 # independent continuant
+
+NCBITaxon:2759 # Eukaryota
+
+OBI:0100026 # organism

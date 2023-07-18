@@ -1,4 +1,3 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/eins2023.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
@@ -10,38 +9,73 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/eins2023.owl>
-
-Import(<http://purl.obolibrary.org/obo/eins2023/imports/ro_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/eins2023/imports/bfo_import.owl>)
-
-
+Import(<http://purl.obolibrary.org/obo/eins2023/releases/2023-07-14/imports/hp_import.owl>)
+Import(<http://purl.obolibrary.org/obo/eins2023/releases/2023-07-14/imports/noyo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/eins2023/releases/2023-07-14/imports/ogms_import.owl>)
+Import(<http://purl.obolibrary.org/obo/eins2023/releases/2023-07-14/imports/olhsi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/eins2023/releases/2023-07-14/imports/omrse_import.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Dyslipidemia early diagnostic application ontology")
 
-
-Declaration(Class(<http://purl.obolibrary.org/obo/EINS2023_0000000>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/EINS2023_0adf1f03_c101_4964_9db0_ee20e0488afa>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/EINS2023_0e9687f8_5421_4098_8593_59289a109b4b>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/EINS2023_18a95630_390c_4697_99b0_92e86e890cbc>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/EINS2023_a7976a42_bf12_4fee_9032_8a58de044968>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/EINS2023_af226783_3fc0_4646_bd8a_2560f5f733b2>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-
 ############################
 #   Annotation Properties
 ############################
 
+# Annotation Property: dcterms:description (description)
+
 AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
 AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
+
+
+
 ############################
-#   Classes
+#   Named Individuals
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/EINS2023_0000000> (root node)
+# Individual: <http://purl.obolibrary.org/obo/EINS2023_0adf1f03_c101_4964_9db0_ee20e0488afa> (lipidMetabolicProcess1)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EINS2023_0000000> "root node"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EINS2023_0adf1f03_c101_4964_9db0_ee20e0488afa> "lipidMetabolicProcess1"@fr)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/EINS2023_0adf1f03_c101_4964_9db0_ee20e0488afa> <http://purl.obolibrary.org/obo/EINS2023_a7976a42_bf12_4fee_9032_8a58de044968>)
+
+# Individual: <http://purl.obolibrary.org/obo/EINS2023_0e9687f8_5421_4098_8593_59289a109b4b> (abnormalModifier1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EINS2023_0e9687f8_5421_4098_8593_59289a109b4b> "abnormalModifier1"@fr)
+
+# Individual: <http://purl.obolibrary.org/obo/EINS2023_18a95630_390c_4697_99b0_92e86e890cbc> (quality1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EINS2023_18a95630_390c_4697_99b0_92e86e890cbc> "quality1"@fr)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/EINS2023_18a95630_390c_4697_99b0_92e86e890cbc> <http://purl.obolibrary.org/obo/EINS2023_0adf1f03_c101_4964_9db0_ee20e0488afa>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/EINS2023_18a95630_390c_4697_99b0_92e86e890cbc> <http://purl.obolibrary.org/obo/EINS2023_0e9687f8_5421_4098_8593_59289a109b4b>)
+
+# Individual: <http://purl.obolibrary.org/obo/EINS2023_a7976a42_bf12_4fee_9032_8a58de044968> (blood1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EINS2023_a7976a42_bf12_4fee_9032_8a58de044968> "blood1"@fr)
+
+# Individual: <http://purl.obolibrary.org/obo/EINS2023_af226783_3fc0_4646_bd8a_2560f5f733b2> (abnormality1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EINS2023_af226783_3fc0_4646_bd8a_2560f5f733b2> "abnormality1"@fr)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/EINS2023_af226783_3fc0_4646_bd8a_2560f5f733b2> <http://purl.obolibrary.org/obo/EINS2023_18a95630_390c_4697_99b0_92e86e890cbc>)
 
 
 )
-

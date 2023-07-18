@@ -1,0 +1,8 @@
+id: eins2023
+title: Dyslipidemia early diagnostic application ontology
+github_org: samdus
+repo: EINS2023-EquipeBleuOntologie
+import_group:
+  products:
+    - id: ro
+    - id: bfo
